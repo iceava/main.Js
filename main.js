@@ -5,23 +5,23 @@
 //console.log(user, age, message)
 //alert ( message)
 
-/*var myNum = 25,
+    var myNum = 25,
     myString = 'Some string',
     myBool = true,
     nyNul = null,
     myUndef = undefined;
 
     console.log( myNum, myString, typeof myBool, nyNul, myUndef)
-   */
+   
 
-   /*var n = 100
+   var n = 100
    n = n / 20;
    n = n + 20;
    n = n * 20;
 
    console.log(n)
-*/
-/*
+
+
 var n =100
 n /=20;
 n +=20;
@@ -41,8 +41,8 @@ string')
 var string = 'Lorem ipsum dolor sit amet,\
 consectetur adipisicing';
 console.log(string.replace('sit amet', 'not sit'));
-*/
-/*
+
+
 var myNum = 10
 var myStr = 'строка'
 var myBool = true
@@ -73,15 +73,15 @@ console.log(myRandom)
 var myPow = (Math.pow(3,5))
 console.log(myPow)
 
-        */
-/*
+        
+
 var strObj = {str:"Мама мыла раму, рама мыла маму"};
 strObj.length = strObj.str.length
 
 var isRamaPos = strObj.str.indexOf('рама')
 console.log(isRamaPos)
-*/
-/*
+
+
 var strReplace = strObj.str.replace("Мама мыла раму, рама мыла маму", "Мама моет раму, Рама держит маму")
 console.log(strReplace)
 
@@ -90,4 +90,4 @@ console.log(strObj.str)
 
 strObj.str.toLowerCase()
 console.log(strObj.str)
-*/
+
