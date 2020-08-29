@@ -84,3 +84,26 @@ function cbPow(num, pow) {
 function cbAdd(a, b) {
   return a + b;
 }
+
+
+
+
+
+    let counting = (function () {
+                let count = 0;
+              
+                return {
+                  value(num) {
+                    if (num !== undefined) count = num;
+              
+                    return count;
+                  },
+                  decrement() {
+                    count--;
+                  },
+                  increment() {
+                    count++;
+                  }
+                };
+              }());
+               console.log(counting.value())
